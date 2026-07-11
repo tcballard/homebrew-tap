@@ -7,7 +7,7 @@ cask "sorting-hat" do
   desc "AI-powered drop folder and Finder Quick Action for organizing files"
   homepage "https://github.com/tcballard/Meanwhile"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Sorting Hat.app"
 
