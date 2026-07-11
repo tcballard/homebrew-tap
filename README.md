@@ -8,19 +8,25 @@ Homebrew packages for tools and applications maintained by
 Install a package directly from this tap:
 
 ```sh
-brew install --cask tcballard/tap/localwrap
+brew install --cask tcballard/tap/sorting-hat
 ```
 
 Alternatively, add the tap once and then install packages by name:
 
 ```sh
 brew tap tcballard/tap
-brew install --cask localwrap
+brew install --cask sorting-hat
 ```
 
 ## Packages
 
-Package definitions will be listed here as they become available.
+- `sorting-hat` — AI-powered drop folder and Finder Quick Action for organizing files.
+
+Install it with:
+
+```sh
+brew install --cask tcballard/tap/sorting-hat
+```
 
 ## Repository layout
 
