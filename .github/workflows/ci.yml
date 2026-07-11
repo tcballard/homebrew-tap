@@ -18,5 +18,16 @@ jobs:
       - name: Tap repository
         run: brew tap tcballard/tap "$GITHUB_WORKSPACE"
 
-      - name: Check tap syntax
-        run: brew test-bot --only-tap-syntax
+      - name: Check package definitions
+        shell: bash
+        run: |
+          found=false
+          while IFS= read -r -d '' file; do
+            found=true
+            ruby -c "$file"
+            brew style "$file"
+          done < <(find Casks Formula -type f -name '*.rb' -print0)
+
+          if [[ "$found" == false ]]; then
+            echo "No formulae or casks to validate yet."
+          fi
