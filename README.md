@@ -20,9 +20,17 @@ brew install --cask sorting-hat
 
 ## Packages
 
+- `meanwhile` — macOS menu-bar app that turns coding-agent wait time into one
+  actionable GitHub task.
 - `sorting-hat` — AI-powered drop folder and Finder Quick Action for organizing files.
 
-Install it with:
+Install Meanwhile with:
+
+```sh
+brew install --cask tcballard/tap/meanwhile
+```
+
+Install Sorting Hat with:
 
 ```sh
 brew install --cask tcballard/tap/sorting-hat
