@@ -1,6 +1,6 @@
 cask "meanwhile" do
-  version "0.1.1"
-  sha256 "941aec3126d6046058812d279d0bacadcd3f96236cbd5e6e32ff72a965b36303"
+  version "0.1.2"
+  sha256 "8b6de3c6ff289bb1060953d23683d082eacc980656dfd300c88765e495defb89"
 
   url "https://github.com/tcballard/Meanwhile/releases/download/v#{version}/Meanwhile-#{version}.zip"
   name "Meanwhile"
