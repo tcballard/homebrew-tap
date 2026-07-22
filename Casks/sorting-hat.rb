@@ -1,6 +1,6 @@
 cask "sorting-hat" do
-  version "0.1.0"
-  sha256 "1dcb4e70ceba0b2b10f556e9f4f0939174831971056875974cfe88c5b33f8395"
+  version "0.1.1"
+  sha256 "380dc79ee4e2d98a8438846c37e6306c4f414dad023638a66bdb3f7f2016b280"
 
   url "https://github.com/tcballard/SortingHat/releases/download/v#{version}/Sorting-Hat-v#{version}.zip"
   name "Sorting Hat"
