@@ -12,7 +12,7 @@ cask "sorting-hat" do
   app "Sorting Hat.app"
 
   caveats <<~EOS
-    Sorting Hat uses Apple's on-device model on macOS 27. On earlier macOS
+    Sorting Hat uses Apple's on-device model on macOS 26. On earlier macOS
     versions, configure Ollama or OpenAI from Model Settings in the dashboard.
 
     Install the Finder action by clicking "Install Quick Action" in the dashboard.
